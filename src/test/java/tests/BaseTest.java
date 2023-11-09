@@ -14,8 +14,8 @@ public class BaseTest{
     private BaseTest() throws MalformedURLException {
         DesiredCapabilities cap = new DesiredCapabilities();
         //Define where the apk file is located
-        File appDir = new File("C:\\Users\\govindarai\\Downloads\\Appium_DemoApp-main\\Appium_DemoApp-main\\src\\main\\resources");
-        File app = new File(appDir, "Android-MyDemoApp.apk");
+        File appDir = new File("C:\\Users\\govindarai\\Downloads\\NAGP_Govinda_Appium\\NAGP_Appium_BDD_Framework\\NAGP_APPIUM\\src\\main\\resources\\in.workindia.apk");
+        File app = new File(appDir, "in.workindia.apk");
         //Define which is the device we are using to test.
         cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 4a API 30");
         //Define the automation type for our test

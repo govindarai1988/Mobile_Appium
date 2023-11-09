@@ -5,19 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab04c182-13b4-490d-8602-cc3b5bf61f05" name="Changes" comment="Refactoring Feature: Add catalog element to card, were added the steps to finalize the purchase.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Catalog_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Catalog_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Catalog_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Catalog_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/CheckoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/CheckoutSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/ProductSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/ProductSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/testRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/addProductSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/addProductSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/addToCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/addToCart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/CatalogPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/CheckoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DrawingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/GeoLocationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LeftMenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LogInPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ProductPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/QRCodeScannerPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/WebViewPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/BaseStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/CatalogSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/CheckoutSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/DrawingStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/GeoLocationSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LeftMenuSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LogInSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LogOutSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/ProductSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/QRCodeScannerSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/ResetAppSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/WebViewSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Android-MyDemoApp.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/addProductSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/doDrawing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/logInApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/logOutApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/openWebView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/resetApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/scanQrCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/startGeoLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/addToCart.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/doDrawing.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/logInApp.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/logOutApp.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/openWebView.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/resetApp.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/scanQrCode.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/startGeoLocation.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +74,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/2022/Java Projects/appiumBootcamp/src/test/java/stepDefinitions&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/govindarai/Downloads/NAGP_Govinda_Appium/NAGP_Appium_BDD_Framework/NAGP_APPIUM",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2022\Java Projects\appiumBootcamp\src\main\resources" />
